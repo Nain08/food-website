@@ -1,0 +1,59 @@
+.contact-background {
+    background-color: #cec511;
+    margin: 0;
+    height: 97vh;
+    padding-top: 3rem;
+}
+
+.contact-heading {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 3.2rem;
+    display: inline;
+}
+
+.contact-container {
+    color: white;
+    margin-left: 7rem;
+    margin-top: 4rem;
+}
+
+.contact-img {
+    height: 25rem;
+    width: 30rem;
+    margin-left: 2rem;
+}
+
+.contact-send-btn {
+    color: rgb(91, 89, 89);
+    border-radius: 0%;
+    width: 25%;
+}
+
+.contact-inputs {
+    border-radius: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .contact-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .contact-send-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .contact-inputs {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

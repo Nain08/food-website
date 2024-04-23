@@ -1,0 +1,17 @@
+.recipes-container{
+    background-color:#212529;
+    height: 89.5vh;
+    margin-top: 3.8rem;
+
+}
+.recipes-heading{
+    color: white;
+    background-color: rgb(227 209 5);
+    font-size: 50px;
+    text-align: center;
+}
+.recipes-list{
+    margin-left:10.5rem;
+    margin-right: 10.5rem;
+    margin-top: 8rem;
+}

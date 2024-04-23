@@ -1,0 +1,49 @@
+.recipe-img {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+
+.carousel-caption {
+  text-align: center;
+  background-color:#212529;
+  padding: 10px;
+  color: #fff;
+  position: unset;
+}
+
+.owl-carousel {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.owl-nav{
+  color:white;
+  font-size: xxx-large;
+  background-color: white;
+  margin: 2px;
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #fff;
+  margin: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.owl-prev {
+  left: -35px;
+}
+
+.owl-next {
+  right: -35px;
+}
+
+.owl-carousel:hover .owl-prev,
+.owl-carousel:hover .owl-next {
+  display: block; 
+}

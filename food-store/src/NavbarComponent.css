@@ -1,0 +1,73 @@
+/* .img-logo{
+    width:4rem;
+    height: 3rem;
+}
+.nav-btn{
+    border-radius: 0%;
+    margin-left: 0.5rem;
+    padding: 0px 7px;
+    margin-top: 0.7rem;
+}
+.nav-links{
+    margin:0.2rem
+}
+.nav{
+    padding-top: 2px;
+    padding-bottom: 2px;
+   
+}
+.right-nav{
+    margin-left: 0.5rem;
+   margin-right:-2.3rem
+}
+.active {
+  color: #ffc107;
+  font-weight: bold;
+  
+} */
+
+.img-logo {
+  width: 4rem;
+  height: 3rem;
+}
+
+.nav-btn{
+  border-radius: 0%;
+  margin-left: 0.5rem;
+  padding: 0px 7px;
+  margin-top: 0.7rem;
+}
+.nav-btn-close{
+  border-radius: 0%;
+  margin-left: 0.5rem;
+  padding: 0px 7px;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem 
+}
+.nav-links {
+  margin: 0.7rem;
+  text-decoration: none;
+  color: white;
+
+}
+
+/* .nav-links:hover {
+  text-decoration: underline;
+} */
+
+.nav {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.right-nav {
+  margin-left: 0.5rem;
+  margin-right: -2.3rem;
+}
+
+/* Style for the active link */
+.active {
+  color: #ffc107; /* Change this to your desired color for the active link */
+  font-weight: bold;
+  /* Add any other styles you want for the active link */
+}

@@ -1,0 +1,146 @@
+.about-container{
+    margin-top:4rem ;
+}
+.about-img-top {
+    height: 100px;
+    width: 100px;
+}
+
+.about-left {
+    margin-top: 2rem;
+    margin-left: 20rem;
+    margin-right: 3rem;
+}
+
+.about-right {
+    margin-top: 3rem;
+    background-color: #cec511;
+    height: 265px;
+    width: 320px;
+}
+
+.about-img-right {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 235px;
+    width: 300px;
+}
+
+.about-top-text {
+    margin-left: 19rem;
+    margin-right: 19rem;
+}
+
+.about-body {
+    display: flex;
+    align-items: center;
+}
+
+.about-left-text {
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 300px;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.top-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-content {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20rem;
+}
+
+.read-more-link {
+    cursor: pointer;
+    display: block;
+    color: white;
+    text-decoration: underline;
+}
+
+.modal-close-btn {
+    background-color: white;
+    color: black;
+    border-radius: 20%;
+    box-shadow: 0%;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .about-left {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .about-right {
+        width: 100%; /* Take full width on smaller screens */
+        margin: 1rem; /* Adjust margin as needed */
+        /* align-items: center; */
+    }
+
+    .about-img-right {
+        margin-left: 0;
+        margin-top: 1rem; /* Adjust margin as needed */
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 100%; /* Take full width on smaller screens */
+    }
+
+    .about-top-text {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .about-body {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: stretch; /* Allow items to stretch full width */
+        margin:2rem;
+    }
+
+    .about-left-text {
+        width: 100%; /* Take full width on smaller screens */
+        margin: 1rem; /* Adjust margin as needed */
+    }
+
+    .top-modal-content,
+    .dialog-content {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Allow items to stretch full width */
+        justify-content: space-evenly; /* Add space between items */
+        margin:2rem;
+    }
+}
